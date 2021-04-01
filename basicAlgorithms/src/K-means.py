@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.spatial.distance import cdist
 np.random.seed(11)
-
 means = [[2, 2], [8, 3], [3, 6]]
 cov = [[1, 0], [0, 1]]
 N = 500
